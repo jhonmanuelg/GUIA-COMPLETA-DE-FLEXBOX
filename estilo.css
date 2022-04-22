@@ -45,7 +45,8 @@
     
 
     /* Estilo flex grow es asinarle el mayor espacio posible a ese elemento o se contraiga para dar espacio a otro elemento*/
-    
+    /* Estilo flex shrink = esta es la propieda opuesta de grow todo los elemento se van a contaer cuando se contaiga nuestro contenedor*/
+
 
 }
 
@@ -66,6 +67,7 @@
     /*  estilos flex   */
     /* order: 3; */
     /* flex-grow: 4; */
+    flex-shrink: 1;
 }
 
 .item2 {
@@ -79,6 +81,7 @@
     /*  estilos flex   */
     /* order: 2; */
     /* flex-grow: 2; */
+    flex-shrink: 2;
     
 }
 
@@ -92,6 +95,7 @@
     padding: 15px;
     /*  estilos flex   */
     /* order: 4; */
+    flex-shrink: 5;
 }
 
 .item4 {
@@ -105,5 +109,6 @@
     /*  estilos flex   */
     /* order: 0; */
     /* flex-grow: 4; */
+    flex-shrink: 10;
 
 }
