@@ -3,7 +3,7 @@
     border: 1px solid rgb(145, 7, 7);
     width: 700px;
     height: 80px;
-    /*  estilos flex   */
+    /*  Estilos flexbox direction  */
     display: flex;
     /* flex-direction: row; este es el valor por defecto*/
     /* flex-direction: row-reverse; este alinea a la esquierda en reversa*/
