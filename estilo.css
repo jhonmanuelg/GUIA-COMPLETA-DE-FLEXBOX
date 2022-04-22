@@ -3,7 +3,7 @@
     background-color: aquamarine;
     border: 3px solid rgb(255, 186, 12);
     width: 90%;
-    /* height: 600px;     */
+    height: 400px;    
     display: flex;
     /*  Estilos flexbox direction  */
     /* flex-direction: row; este es el valor por defecto*/
@@ -31,9 +31,9 @@
     
     /* Estilo alin content con flexflow*/
     /* row wrap: para que alla ese desborde de los elementos */
-    flex-flow: row wrap;      
+    /* flex-flow: row wrap;       */
     /* align-content: flex-end;  */
-    align-content: flex-start; 
+    /* align-content: flex-start;  */
     /* align-content: flex-start; se coloca en la parte de arriba*/
     /* align-content: space-between; divide el espacio de arriba hacia bajo*/
     /* align-content: space-around; coloca espacio entre elemento y container*/
@@ -47,12 +47,12 @@
     /* Estilo flex grow es asinarle el mayor espacio posible a ese elemento o se contraiga para dar espacio a otro elemento*/
     /* Estilo flex shrink = esta es la propieda opuesta de grow todo los elemento se van a contaer cuando se contaiga nuestro contenedor*/
     /* Estilo flex basis = se utiliza en conjunto con grow y shrink permite asignar un tamaño al elemento ante de reducirse el contenedor donde se encuentra*/
-
+    /* Estilo align self = para maniputar los elemento en forma individual*/
 
 }
 
 /* .conteiner> div{
-    height: 100px;
+    /* height: 50px; 
    
     
 } */
@@ -69,7 +69,10 @@
     /* order: 3; */
     /* flex-grow: 4;
     flex-shrink: 1; */
-    flex-basis: 50px;
+    /* flex-basis: 50px; */
+    align-self: flex-start;
+    
+    
 }
 
 .item2 {
@@ -84,7 +87,9 @@
     /* order: 2; */
     /* flex-grow: 2;
     flex-shrink: 2; */
-    flex-basis: 300px;
+    /* flex-basis: 300px; */
+    align-self: stretch;
+    
     
 }
 
@@ -98,8 +103,9 @@
     padding: 15px;
     /*  estilos flex   */
     /* order: 4; */
-    flex-shrink: 5;
-    flex-basis: 200px;
+    /* flex-shrink: 5;
+    flex-basis: 200px; */
+    align-self: center;
 }
 
 .item4 {
@@ -114,6 +120,26 @@
     /* order: 0; */
     /* flex-grow: 4;
     flex-shrink: 10; */
-    flex-basis: 10px;
+    /* flex-basis: 10px; */
+    /* align-self: flex-end; */
+    align-self: baseline;
+
+}
+
+.item5{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(11, 9, 8);
+    background-color: rgb(132, 167, 222);
+    border: 1px solid white;
+    /* height: 150px; */
+    padding: 15px;
+    /*  estilos flex   */
+    /* order: 0; */
+    /* flex-grow: 4;
+    flex-shrink: 10; */
+    /* flex-basis: 10px; */
+    align-self: flex-end;
+    
 
 }
