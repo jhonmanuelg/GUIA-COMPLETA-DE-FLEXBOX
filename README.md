@@ -12,3 +12,10 @@ O primeiro passo para começar a usar Flexbox é criar um flex container. Elemen
 
 *  Como fazer um flexbox?
 A área de um documento que faz uso do flexbox é chamada de contêiner flex. Para criar essa estrutura, define-se o valor da propriedade display do elemento representado pelo contêiner como flex ou inline-flex . Desse modo, os elementos-filhos desse contêiner tornar-se-ão do tipo flex.
+
+
+# Guia del video
+
+*  en link: con Vida MRR Curso completo para aprender Flexbox en CSS. En esta guía vas a ver el funcionamiento de cada una de las propiedades de Flexbox y bajo qué escenarios puedes usarlas. Pon a prueba tus habilidades haciendo los ejercicios para ordenar nuestros elementos con este layout.
+
+*  https://www.youtube.com/watch?v=EVBlLkfh2V0
