@@ -1,18 +1,28 @@
 .conteiner{
-    padding: 4px;
+    padding: 7px;
     background-color: aquamarine;
     border: 3px solid rgb(255, 186, 12);
-    width: 300px;
-    height: auto;
-    /*  Estilos flexbox direction  */
+    width: 600px;
+    height: auto;    
     display: flex;
+    /*  Estilos flexbox direction  */
     /* flex-direction: row; este es el valor por defecto*/
     /* flex-direction: row-reverse; este alinea a la esquierda en reversa*/
     /* flex-direction: column; para direcionar de arriba hacia bajo*/
     /* flex-direction: column-reverse; */
-    /*    flex wrap  */
+
+    /*  el uso de  flex wrap  */
     /* flex-wrap: wrap; para quedra de linea*/
-    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap-reverse; esto es para cambiar el orden para vercion inversa */
+    
+    /*   Metodo justify  */ 
+    /* justify-content: center; */
+    /* justify-content: flex-start; lo alinea a la esquierda*/
+    /* justify-content: flex-end; lo alinea a la derecha*/
+    /* justify-content: space-between; el alinea espacio entre los ellos*/
+    justify-content: space-around;
+
+
 
 
 }
