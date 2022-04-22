@@ -32,11 +32,13 @@
     /* Estilo alin content con flexflow*/
     /* row wrap: para que alla ese desborde de los elementos */
     flex-flow: row wrap;      
-    /* align-content: flex-end;  van a la parte de abajo*/
+    align-content: flex-end; 
     /* align-content: flex-start; se coloca en la parte de arriba*/
     /* align-content: space-between; divide el espacio de arriba hacia bajo*/
     /* align-content: space-around; coloca espacio entre elemento y container*/
 
+    /* Estilo Gap porder añadir un espacio entre los elemento lateral superio y inferior*/
+    gap: 10px;
 
 
 
