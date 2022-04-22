@@ -32,13 +32,18 @@
     /* Estilo alin content con flexflow*/
     /* row wrap: para que alla ese desborde de los elementos */
     flex-flow: row wrap;      
-    align-content: flex-end; 
+    /* align-content: flex-end;  */
+    align-content: flex-start; 
     /* align-content: flex-start; se coloca en la parte de arriba*/
     /* align-content: space-between; divide el espacio de arriba hacia bajo*/
     /* align-content: space-around; coloca espacio entre elemento y container*/
 
     /* Estilo Gap porder añadir un espacio entre los elemento lateral superio y inferior*/
-    gap: 10px;
+    /* gap: 10px; */
+
+    /* Estilo Order: Como agregar donde interatua elemento por ceparado para hacer el respancibo */
+    
+
 
 
 
@@ -46,6 +51,7 @@
 
 .conteiner> div{
     height: 100px;
+   
     
 }
 
@@ -58,6 +64,7 @@
     /* height: 100px; */
     padding: 15px;
     /*  estilos flex   */
+    /* order: 3; */
 }
 
 .item2 {
@@ -69,6 +76,7 @@
     /* height: 70px; */
     padding: 15px;
     /*  estilos flex   */
+    /* order: 2; */
     
 }
 
@@ -81,6 +89,7 @@
     /* height: 200px; */
     padding: 15px;
     /*  estilos flex   */
+    /* order: 4; */
 }
 
 .item4 {
@@ -92,4 +101,6 @@
     /* height: 150px; */
     padding: 15px;
     /*  estilos flex   */
+    /* order: 0; */
+
 }
