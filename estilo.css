@@ -3,7 +3,7 @@
     background-color: aquamarine;
     border: 3px solid rgb(255, 186, 12);
     width: 600px;
-    height: auto;    
+    height: 600px;    
     display: flex;
     /*  Estilos flexbox direction  */
     /* flex-direction: row; este es el valor por defecto*/
@@ -29,12 +29,22 @@
     /* align-items: stretch; hace que la altura sea del tamaño dispomible por el */
     /* align-items: baseline; margin-top: 20px; align-items: stretch hace que la misma linea sea igual para todos*/
     
-    /* Estilo alin content */
+    /* Estilo alin content con flexflow*/
+    /* row wrap: para que alla ese desborde de los elementos */
+    flex-flow: row wrap;      
+    /* align-content: flex-end;  van a la parte de abajo*/
+    /* align-content: flex-start; se coloca en la parte de arriba*/
+    /* align-content: space-between; divide el espacio de arriba hacia bajo*/
+    /* align-content: space-around; coloca espacio entre elemento y container*/
 
 
 
 
+}
 
+.conteiner> div{
+    height: 100px;
+    
 }
 
 .item1 {
@@ -43,7 +53,7 @@
     color: rgb(0, 0, 0);
     background-color: rgb(236, 230, 176);
     border: 1px solid white;
-    height: 100px;
+    /* height: 100px; */
     padding: 15px;
     /*  estilos flex   */
 }
@@ -54,7 +64,7 @@
     color: rgb(0, 0, 0);
     background-color: rgb(233, 164, 212);
     border: 1px solid white;
-    height: 70px;
+    /* height: 70px; */
     padding: 15px;
     /*  estilos flex   */
     
@@ -66,7 +76,7 @@
     color: rgb(0, 0, 0);
     background-color: rgb(166, 143, 219);
     border: 1px solid white;
-    height: 200px;
+    /* height: 200px; */
     padding: 15px;
     /*  estilos flex   */
 }
@@ -77,7 +87,7 @@
     color: rgb(11, 9, 8);
     background-color: rgb(132, 167, 222);
     border: 1px solid white;
-    height: 150px;
+    /* height: 150px; */
     padding: 15px;
     /*  estilos flex   */
 }
