@@ -1,14 +1,18 @@
 .conteiner{
+    padding: 4px;
     background-color: aquamarine;
-    border: 1px solid rgb(145, 7, 7);
-    width: 700px;
-    height: 80px;
+    border: 3px solid rgb(255, 186, 12);
+    width: 300px;
+    height: auto;
     /*  Estilos flexbox direction  */
     display: flex;
     /* flex-direction: row; este es el valor por defecto*/
     /* flex-direction: row-reverse; este alinea a la esquierda en reversa*/
     /* flex-direction: column; para direcionar de arriba hacia bajo*/
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
+    /*    flex wrap  */
+    /* flex-wrap: wrap; para quedra de linea*/
+    flex-wrap: wrap-reverse;
 
 
 }
@@ -16,8 +20,8 @@
 .item1 {
     text-align: center;
     font-weight: bold;
-    color: sandybrown;
-    background-color: rgb(13, 78, 78);
+    color: rgb(0, 0, 0);
+    background-color: rgb(236, 230, 176);
     border: 1px solid white;
     /*  estilos flex   */
 }
@@ -25,8 +29,8 @@
 .item2 {
     text-align: center;
     font-weight: bold;
-    color: rgb(180, 157, 137);
-    background-color: rgb(13, 78, 78);
+    color: rgb(0, 0, 0);
+    background-color: rgb(233, 164, 212);
     border: 1px solid white;
     /*  estilos flex   */
 }
@@ -34,8 +38,8 @@
 .item3 {
     text-align: center;
     font-weight: bold;
-    color: rgb(154, 72, 0);
-    background-color: rgb(13, 78, 78);
+    color: rgb(0, 0, 0);
+    background-color: rgb(166, 143, 219);
     border: 1px solid white;
     /*  estilos flex   */
 }
@@ -43,8 +47,8 @@
 .item4 {
     text-align: center;
     font-weight: bold;
-    color: rgb(255, 119, 0);
-    background-color: rgb(13, 78, 78);
+    color: rgb(11, 9, 8);
+    background-color: rgb(132, 167, 222);
     border: 1px solid white;
     /*  estilos flex   */
 }
