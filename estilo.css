@@ -2,7 +2,7 @@
     padding: 7px;
     background-color: aquamarine;
     border: 3px solid rgb(255, 186, 12);
-    width: 600px;
+    width: 90%;
     height: 600px;    
     display: flex;
     /*  Estilos flexbox direction  */
@@ -44,8 +44,8 @@
     /* Estilo Order: Como agregar donde interatua elemento por ceparado para hacer el respancibo */
     
 
-
-
+    /* Estilo flex grow es asinarle el mayor espacio posible a ese elemento o se contraiga para dar espacio a otro elemento*/
+    
 
 }
 
@@ -65,6 +65,7 @@
     padding: 15px;
     /*  estilos flex   */
     /* order: 3; */
+    /* flex-grow: 4; */
 }
 
 .item2 {
@@ -77,6 +78,7 @@
     padding: 15px;
     /*  estilos flex   */
     /* order: 2; */
+    /* flex-grow: 2; */
     
 }
 
@@ -102,5 +104,6 @@
     padding: 15px;
     /*  estilos flex   */
     /* order: 0; */
+    /* flex-grow: 4; */
 
 }
