@@ -3,7 +3,7 @@
     background-color: aquamarine;
     border: 3px solid rgb(255, 186, 12);
     width: 90%;
-    height: 600px;    
+    /* height: 600px;     */
     display: flex;
     /*  Estilos flexbox direction  */
     /* flex-direction: row; este es el valor por defecto*/
@@ -46,15 +46,16 @@
 
     /* Estilo flex grow es asinarle el mayor espacio posible a ese elemento o se contraiga para dar espacio a otro elemento*/
     /* Estilo flex shrink = esta es la propieda opuesta de grow todo los elemento se van a contaer cuando se contaiga nuestro contenedor*/
+    /* Estilo flex basis = se utiliza en conjunto con grow y shrink permite asignar un tamaño al elemento ante de reducirse el contenedor donde se encuentra*/
 
 
 }
 
-.conteiner> div{
+/* .conteiner> div{
     height: 100px;
    
     
-}
+} */
 
 .item1 {
     text-align: center;
@@ -66,8 +67,9 @@
     padding: 15px;
     /*  estilos flex   */
     /* order: 3; */
-    /* flex-grow: 4; */
-    flex-shrink: 1;
+    /* flex-grow: 4;
+    flex-shrink: 1; */
+    flex-basis: 50px;
 }
 
 .item2 {
@@ -80,8 +82,9 @@
     padding: 15px;
     /*  estilos flex   */
     /* order: 2; */
-    /* flex-grow: 2; */
-    flex-shrink: 2;
+    /* flex-grow: 2;
+    flex-shrink: 2; */
+    flex-basis: 300px;
     
 }
 
@@ -96,6 +99,7 @@
     /*  estilos flex   */
     /* order: 4; */
     flex-shrink: 5;
+    flex-basis: 200px;
 }
 
 .item4 {
@@ -108,7 +112,8 @@
     padding: 15px;
     /*  estilos flex   */
     /* order: 0; */
-    /* flex-grow: 4; */
-    flex-shrink: 10;
+    /* flex-grow: 4;
+    flex-shrink: 10; */
+    flex-basis: 10px;
 
 }
